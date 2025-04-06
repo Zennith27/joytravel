@@ -1,0 +1,18 @@
+/* Ken Salo 
+665383733  */
+.hero {
+    background: url('/img/robin-noguier-sydwCr54rf0-unsplash.jpg') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 96px 0;
+    min-height: 70vh;
+  }
+  .hero__headline {
+    font-size: 45px; 
+    margin-bottom: 16px;
+  }
+  .hero__tagline {
+    margin-bottom: 24px;
+    font-size: 20px;
+  }
+  

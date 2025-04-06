@@ -1,0 +1,39 @@
+/* Ken Salo 
+665383733  */
+.subscribe {
+    padding: 64px 0;
+    text-align: center;
+    background: #f8f8f8;
+  }
+  .subscribe__title {
+    font-size: 32px; 
+    margin-bottom: 8px;
+  }
+  .subscribe__text {
+    margin-bottom: 24px;
+    font-size: 16px;
+  }
+  .subscribe__form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .subscribe__input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    flex: 1;
+    max-width: 300px;
+  }
+  .subscribe__btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 3px;
+    background: #0052cc;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  

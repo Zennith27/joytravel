@@ -1,0 +1,42 @@
+/* Ken Salo 
+665383733  */
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 32px 0;
+  }
+  .footer__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .footer__section {
+    margin-bottom: 16px;
+  }
+  .footer__title {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  .footer__list {
+    list-style: none;
+    padding: 0;
+  }
+  .footer__item {
+    margin-bottom: 8px;
+  }
+  .footer__link {
+    color: #fff;
+    text-decoration: none;
+  }
+  .footer__bottom {
+    text-align: center;
+    margin-top: 16px;
+  }
+  .footer__legal {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 0;
+  }
+  

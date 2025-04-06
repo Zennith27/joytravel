@@ -1,0 +1,34 @@
+/* Ken Salo 
+665383733  */
+.testimonials {
+    padding: 64px 0;
+    background: url('/img/mesut-kaya-eOcyhe5-9sQ-unsplash.jpg') center/cover no-repeat, #0c7243;
+    text-align: center;
+  }
+  .testimonials__title {
+    font-size: 32px; 
+    margin-bottom: 32px;
+    color: #fff;
+  }
+  .testimonials__list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+  }
+  .testimonials__item {
+    max-width: 600px;
+    padding: 16px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .testimonials__quote {
+    font-style: italic;
+    margin-bottom: 8px;
+  }
+  .testimonials__author {
+    font-weight: bold;
+    color: brown;
+  }
+  

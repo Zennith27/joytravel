@@ -1,11 +1,216 @@
+<!-- Ken Salo 
+665383733 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JoyTravel</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+  <!-- Header Block -->
+  <header class="header fade-in-up">
+    <div class="header__container container">
+      <a href="#" class="header__logo"><img src="/img/logo.png" height="80" alt="logo"></a>
+      <button class="header__menu-toggle" aria-label="Toggle menu">&#9776;</button>
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item"><a href="#" class="header__nav-link">Trips</a></li>
+          <li class="header__nav-item"><a href="#" class="header__nav-link">How It Works</a></li>
+          <li class="header__nav-item"><a href="#" class="header__nav-link">About</a></li>
+          <li class="header__nav-item"><a href="#" class="header__nav-link">Community</a></li>
+          <li class="header__nav-item">
+            <a href="#" class="header__nav-link header__nav-link--button btn btn--secondary">Book a Call</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Block -->
+  <section class="hero fade-in-up">
+    <div class="hero__container container">
+      <h2 class="hero__headline">Discover the World, Your Way</h2>
+      <p class="hero__tagline">
+        Curated journeys to the world’s most captivating destinations. Travel with a fun group or enjoy a VIP solo adventure—your dream trip, your choice.
+      </p>
+      <a href="#" class="hero__cta btn btn--primary">Start Your Journey</a>
+    </div>
+  </section>
+
+  <!-- How It Works Block -->
+  <section class="how-it-works fade-in-up">
+    <div class="how-it-works__container container">
+      <h2 class="how-it-works__title">How It Works</h2>
+      <div class="how-it-works__steps">
+        <div class="how-it-works__step">
+          <img src="img/location.png" width="100" alt="Location" class="how-it-works__icon" />
+          <h3 class="how-it-works__step-title">Immersive Itineraries</h3>
+          <p class="how-it-works__step-text">
+            Our local experts craft unique adventures that help you engage with culture and hidden gems.
+          </p>
+        </div>
+        <div class="how-it-works__step">
+          <img src="img/itinerary.png" width="100" alt="Planning" class="how-it-works__icon" />
+          <h3 class="how-it-works__step-title">Stress-Free Planning</h3>
+          <p class="how-it-works__step-text">
+            We handle every detail so you can focus on making memories.
+          </p>
+        </div>
+        <div class="how-it-works__step">
+          <img src="img/community.png" width="100" alt="Community" class="how-it-works__icon" />
+          <h3 class="how-it-works__step-title">Community or VIP</h3>
+          <p class="how-it-works__step-text">
+            Join group trips or opt for a VIP solo journey with personalized service.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Destinations Block -->
+  <section class="destinations fade-in-up">
+    <div class="destinations__container container">
+      <h2 class="destinations__title">Popular Destinations</h2>
+      <div class="destinations__grid">
+        <a href="#" class="destinations__card">
+          <img src="img/popular-1.jpg" alt="Paris" class="destinations__card-image" />
+          <div class="destinations__card-overlay">
+            <h3 class="destinations__card-title">Paris</h3>
+          </div>
+        </a>
+        <a href="#" class="destinations__card">
+          <img src="img/popular-3.jpg" alt="Greece" class="destinations__card-image" />
+          <div class="destinations__card-overlay">
+            <h3 class="destinations__card-title">Greece</h3>
+          </div>
+        </a>
+        <a href="#" class="destinations__card">
+          <img src="img/popular-7.jpg" alt="Cuba" class="destinations__card-image" />
+          <div class="destinations__card-overlay">
+            <h3 class="destinations__card-title">Cuba</h3>
+          </div>
+        </a>
+      </div>
+      <a href="#" class="destinations__view-all btn btn--secondary">See Upcoming Trips</a>
+    </div>
+  </section>
+
+  <!-- Testimonials Block -->
+  <section class="testimonials fade-in-up">
+    <div class="testimonials__container container">
+      <h2 class="testimonials__title">What Travelers Say</h2>
+      <div class="testimonials__list">
+        <div class="testimonials__item">
+          <blockquote class="testimonials__quote">
+            "I traveled solo on the VIP package, and JoyTravel made me feel like I had a personal concierge the entire trip."
+          </blockquote>
+          <cite class="testimonials__author">— Taylor M.</cite>
+        </div>
+        <div class="testimonials__item">
+          <blockquote class="testimonials__quote">
+            "I joined a group trip to Italy and connected with amazing people from all over the world."
+          </blockquote>
+          <cite class="testimonials__author">— Danny K.</cite>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Subscribe Block -->
+  <section class="subscribe fade-in-up">
+    <div class="subscribe__container container">
+      <h2 class="subscribe__title">Subscribe to our Newsletter</h2>
+      <p class="subscribe__text">Get the latest travel deals and news delivered straight to your inbox.</p>
+      <form class="subscribe__form">
+        <input type="email" class="subscribe__input" placeholder="Enter your email" required />
+        <button type="submit" class="subscribe__btn btn btn--primary">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FAQ Block -->
+  <section class="faq fade-in-up">
+    <div class="faq__container container">
+      <h2 class="faq__title">Frequently Asked Questions</h2>
+      <div class="faq__list">
+        <details class="faq__item">
+          <summary class="faq__question">Who are these trips for?</summary>
+          <p class="faq__answer">
+            Our trips are designed for solo travelers, friends, and couples seeking curated group experiences.
+          </p>
+        </details>
+        <details class="faq__item">
+          <summary class="faq__question">What's included in the price?</summary>
+          <p class="faq__answer">
+            Pricing typically covers accommodations, meals, activities, local transport, and a dedicated trip leader.
+          </p>
+        </details>
+        <details class="faq__item">
+          <summary class="faq__question">Can I come alone?</summary>
+          <p class="faq__answer">
+            Absolutely! Many travelers join solo—it’s a great way to meet new people.
+          </p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Block -->
+  <section class="cta fade-in-up">
+    <div class="cta__container container">
+      <h2 class="cta__title">Ready for Your Next Adventure?</h2>
+      <p class="cta__subtitle">Explore our upcoming trips and find your perfect getaway.</p>
+      <a href="#" class="cta__btn btn btn--primary">Explore Trips</a>
+    </div>
+  </section>
+
+  <!-- Footer Block -->
+  <footer class="footer fade-in-up">
+    <div class="footer__container container">
+      <div class="footer__section">
+        <h4 class="footer__title">Company</h4>
+        <ul class="footer__list">
+          <li class="footer__item"><a href="#" class="footer__link">About Us</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Careers</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Press</a></li>
+        </ul>
+      </div>
+      <div class="footer__section">
+        <h4 class="footer__title">Travel</h4>
+        <ul class="footer__list">
+          <li class="footer__item"><a href="#" class="footer__link">Upcoming Trips</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">How It Works</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer__section">
+        <h4 class="footer__title">Connect</h4>
+        <ul class="footer__list footer__list--social">
+          <li class="footer__item"><a href="#" class="footer__link"><img src="/img/communication.png" height="25" alt="facebook"></a></li>
+          <li class="footer__item"><a href="#" class="footer__link"><img src="/img/instagram.png" height="25" alt="instagram"></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom container">
+      <p>&copy; 2025 JoyTravel. All rights reserved.</p>
+      <ul class="footer__legal">
+        <li class="footer__legal-item"><a href="#" class="footer__link">Privacy Policy</a></li>
+        <li class="footer__legal-item"><a href="#" class="footer__link">Terms of Service</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- JavaScript for Hamburger Toggle -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const menuToggle = document.querySelector('.header__menu-toggle');
+      const nav = document.querySelector('.header__nav');
+      menuToggle.addEventListener('click', function () {
+        nav.classList.toggle('header__nav--active');
+      });
+    });
+  </script>
 </body>
 </html>

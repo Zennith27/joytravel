@@ -1,0 +1,56 @@
+/* Ken Salo 
+665383733  */
+.destinations {
+    padding: 64px 0; 
+    text-align: center;
+  }
+  .destinations__title {
+    font-size: 32px; 
+    margin-bottom: 32px;
+  }
+  .destinations__grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    
+  }
+  .destinations__card {
+    position: relative;
+  flex: 1;
+  min-width: 250px;
+  max-width: 300px;
+  overflow: hidden;
+  border-radius: 5px;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+    
+  }
+  .destinations__card:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  
+
+  .destinations__card-image {
+    width: 100%;
+    display: block;
+    
+  }
+  .destinations__card-overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+    
+  }
+  .destinations__card-title {
+    font-size: 19px; 
+  }
+  .destinations__view-all {
+    display: inline-block;
+    margin-top: 16px;
+  }
+  

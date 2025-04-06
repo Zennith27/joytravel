@@ -1,0 +1,16 @@
+ /* Ken Salo 
+665383733  */
+ .cta {
+    padding: 64px 0; 
+    text-align: center;
+    background:url('/img/urban-vintage-78A265wPiO4-unsplash.jpg') center/cover no-repeat, #0052cc;
+    color: #fff;
+  }
+  .cta__title {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+  .cta__subtitle {
+    margin-bottom: 24px;
+    font-size: 20px;
+  }

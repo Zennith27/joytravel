@@ -1,0 +1,70 @@
+/* Ken Salo 
+665383733  */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+@import url(/css/header.css);
+@import url(/css/hero.css);
+@import url(/css/how-it-works.css);
+@import url(/css/destinations.css);
+@import url(/css/testimonials.css);
+@import url(/css/subscribe.css);
+@import url(/css/faq.css);
+@import url(/css/cta.css);
+@import url(/css/footer.css);
+@import url(/css/button.css);
+
+/* Erases browswer settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "nunito", sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 16px;
+  }
+  
+  /* Media Queries */
+@media (max-width: 768px) {
+    .header__container {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .header__menu-toggle {
+      display: block;
+    }
+    .header__nav {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background: #fff;
+      border-top: 1px solid #ccc;
+    }
+    .header__nav--active {
+      display: block;
+    }
+    .header__nav-list {
+      flex-direction: column;
+      align-items: center;
+    }
+    .how-it-works__steps,
+    .destinations__grid {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  a:hover{
+    color: darkorange;
+  }
