@@ -3,7 +3,7 @@
  .cta {
     padding: 64px 0; 
     text-align: center;
-    background:url('/img/urban-vintage-78A265wPiO4-unsplash.jpg') center/cover no-repeat, #0052cc;
+    background:url('../img/urban-vintage-78A265wPiO4-unsplash.jpg') center/cover no-repeat, #0052cc;
     color: #fff;
   }
   .cta__title {

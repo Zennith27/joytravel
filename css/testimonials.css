@@ -2,7 +2,7 @@
 665383733  */
 .testimonials {
     padding: 64px 0;
-    background: url('/img/mesut-kaya-eOcyhe5-9sQ-unsplash.jpg') center/cover no-repeat, #0c7243;
+    background: url('../img/mesut-kaya-eOcyhe5-9sQ-unsplash.jpg') center/cover no-repeat, #0c7243;
     text-align: center;
   }
   .testimonials__title {
